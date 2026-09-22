@@ -1,5 +1,16 @@
 // Consulta la Tarea 5 en tus Instrucciones para completar esta tarea
 
-for (let i = 0; i < 1; i++) {
-  console.log("¡Esta es la Tarea Cinco!");
-};
+const prompt = require ('prompt-sync')();
+
+let numero = prompt ("Ingrese un numero: ");
+
+numero = Number(numero);
+
+let i = 1;
+let limite = Number(numero);
+
+while(i <= limite){
+    console.log(i);
+        i++;                
+}
+
